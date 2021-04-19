@@ -34,5 +34,18 @@ class TestRendimentoBruto {
 		
 		assertEquals(rendimentoBruto, 13.97f);
 	}
+	
+	@Test
+	void testRendimentoBruto2() {
+		valorInicial = 500f;
+		taxaJuros = 0.08f;
+		qtdeDias = 120;
+		
+		CDB cdb = new CDB(valorInicial, taxaJuros, qtdeDias);
+		
+		float rendimentoBruto = cdb.getRendimentoBruto();
+		
+		assertEquals(rendimentoBruto, 13.15f);
+	}
 
 }
