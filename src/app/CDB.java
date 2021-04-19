@@ -2,6 +2,7 @@ package app;
 
 public class CDB {
 
+	private final int QTDE_DIAS_ANO = 365;
 	private float valorInicial;
 	private float taxaJuros;
 	private int qtdeDias;
@@ -13,12 +14,7 @@ public class CDB {
 	}
 	
 	public float getRendimentoBruto() {
-		if (getValorInicial() == 1000f && getTaxaJuros() == 0.085f && getQtdeDias() == 60) {
-			return 13.97f;
-		} else {
-			return 13.15f;
-		}
-		
+		return getValorInicial() * getTaxaJuros() * getQtdeDias() / (float) QTDE_DIAS_ANO;
 	}
 	
 	public float getValorInicial() {
