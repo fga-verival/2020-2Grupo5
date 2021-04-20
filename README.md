@@ -21,7 +21,9 @@ A técnica que deve ser utilizada para a triangulação ser aplicada em código 
 * Escreva a implementação óbvia
 * Falsificar o resultado da implementação
 * Triangular
+
 A triangulação consiste nas seguintes etapas:
+
 * Pense em um exemplo mais simples que o método a ser testado deve resolver.
 * Escreva um teste que cubra esse exemplo, implemente a solução e refatore.
 * Repita este processo adicionando mais e mais exemplos complexos até você achar que não há mais (pequenos passos).
