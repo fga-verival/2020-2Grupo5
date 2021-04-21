@@ -13,6 +13,9 @@ public class CDB {
 		this.setQtdeDias(qtdeDias);
 	}
 	
+	public float getImpostoDeRenda() {
+		return 3.14f;
+	}
 	public float getRendimentoBruto() {
 		return getValorInicial() * getTaxaJuros() * getQtdeDias() / (float) QTDE_DIAS_ANO;
 	}
