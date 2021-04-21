@@ -13,6 +13,22 @@ public class CDB {
 		this.setQtdeDias(qtdeDias);
 	}
 	
+	public float getImpostoDeRenda() {
+		
+		float aliquota;
+		
+		if (getQtdeDias() <= 180) {
+			aliquota = 0.225f;
+		} else if (getQtdeDias() <= 360) {
+			aliquota = 0.2f;
+		} else if (getQtdeDias() <= 720) {
+			aliquota = 0.175f;
+		} else {
+			aliquota = 0.15f;
+		}
+		
+		return getRendimentoBruto() * aliquota;
+	}
 	public float getRendimentoBruto() {
 		return getValorInicial() * getTaxaJuros() * getQtdeDias() / (float) QTDE_DIAS_ANO;
 	}
