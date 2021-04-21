@@ -28,7 +28,7 @@ class TestRendimentoLiquido {
 		
 		float rendimentoLiquido = cdb.getRendimentoLiquido();
 		
-		assertEquals(rendimentoLiquido, 1.0829f);
+		assertEquals(rendimentoLiquido, 1.0829f, 0.05);
 	}
 	
 	@Test
@@ -41,7 +41,20 @@ class TestRendimentoLiquido {
 		
 		float rendimentoLiquido = cdb.getRendimentoLiquido();
 		
-		assertEquals(rendimentoLiquido, 2.0384f);
+		assertEquals(rendimentoLiquido, 2.0384f, 0.05);
+	}
+	
+	@Test
+	void testRendimentoLiquido3() {
+		float valorInicial = 3000f;
+		float taxaJuros = 0.09f;
+		int qtdeDias = 240;
+		
+		CDB cdb = new CDB(valorInicial, taxaJuros, qtdeDias);
+		
+		float rendimentoLiquido = cdb.getRendimentoLiquido();
+		
+		assertEquals(rendimentoLiquido, 4.7342f, 0.05);
 	}
 
 }

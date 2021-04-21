@@ -14,11 +14,7 @@ public class CDB {
 	}
 	
 	public float getRendimentoLiquido() {
-		if (getValorInicial() == 1000f && getTaxaJuros() == 0.085f && getQtdeDias() == 60) {
-			return 1.0829f;
-		} else {
-			return 2.0384f;
-		}
+		return (getRendimentoBruto() - getImpostoDeRenda()) * 100 / getValorInicial();
 	}
 	public float getImpostoDeRenda() {
 		
