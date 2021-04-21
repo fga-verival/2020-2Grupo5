@@ -30,5 +30,18 @@ class TestImpostoDeRenda {
 		
 		assertEquals(impostoDeRenda, 3.14f);
 	}
+	
+	@Test
+	void testImpostoDeRenda2() {
+		float valorInicial = 500f;
+		float taxaJuros = 0.08f;
+		int qtdeDias = 120;
+		
+		CDB cdb = new CDB(valorInicial, taxaJuros, qtdeDias);
+	
+		float impostoDeRenda = cdb.getImpostoDeRenda();
+		
+		assertEquals(impostoDeRenda, 2.96f);
+	}
 
 }
