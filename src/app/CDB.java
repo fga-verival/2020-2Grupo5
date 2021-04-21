@@ -14,11 +14,20 @@ public class CDB {
 	}
 	
 	public float getImpostoDeRenda() {
-		if (getValorInicial() == 1000f && getTaxaJuros() == 0.085f && getQtdeDias() == 60) {
-			return 3.14f;
+		
+		float aliquota;
+		
+		if (getQtdeDias() <= 180) {
+			aliquota = 0.225f;
+		} else if (getQtdeDias() <= 360) {
+			aliquota = 0.2f;
+		} else if (getQtdeDias() <= 720) {
+			aliquota = 0.175f;
 		} else {
-			return 2.96f;
+			aliquota = 0.15f;
 		}
+		
+		return getRendimentoBruto() * aliquota;
 	}
 	public float getRendimentoBruto() {
 		return getValorInicial() * getTaxaJuros() * getQtdeDias() / (float) QTDE_DIAS_ANO;
