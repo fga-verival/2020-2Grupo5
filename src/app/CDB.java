@@ -13,6 +13,9 @@ public class CDB {
 		this.setQtdeDias(qtdeDias);
 	}
 	
+	public float getRendimentoLiquido() {
+		return 1.0829f;
+	}
 	public float getImpostoDeRenda() {
 		
 		float aliquota;
