@@ -1,0 +1,61 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1619379806226,166,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,164,0,5
+1619379806392,154,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,152,0,3
+1619379806546,159,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,158,0,8
+1619379806706,166,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,164,0,3
+1619379806872,153,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,152,0,3
+1619379807025,157,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,156,0,3
+1619379807183,155,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,153,0,4
+1619379807338,168,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,167,0,4
+1619379807507,155,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,154,0,3
+1619379807662,163,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,162,0,5
+1619379807826,151,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,150,0,3
+1619379807977,152,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,151,0,3
+1619379808129,165,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,163,0,5
+1619379808294,149,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,148,0,4
+1619379808443,166,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,164,0,5
+1619379808609,151,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,150,0,4
+1619379808760,166,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,163,0,5
+1619379808927,154,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,153,0,6
+1619379809082,153,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,151,0,3
+1619379809235,153,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,152,0,6
+1619379809388,152,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,151,0,4
+1619379809540,162,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,160,0,4
+1619379809702,160,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,158,0,4
+1619379809862,154,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,151,0,5
+1619379810016,162,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,156,0,4
+1619379810178,189,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,188,0,3
+1619379810368,160,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,159,0,3
+1619379810529,171,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,169,0,4
+1619379810700,173,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,172,0,5
+1619379810873,164,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,162,0,4
+1619379811037,149,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,148,0,4
+1619379811186,154,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,153,0,5
+1619379811341,193,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,192,0,3
+1619379811534,161,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,159,0,4
+1619379811695,166,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,165,0,5
+1619379811862,165,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,163,0,3
+1619379812027,149,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,148,0,3
+1619379812176,154,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,153,0,4
+1619379812330,152,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,149,0,4
+1619379812482,149,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,148,0,4
+1619379812632,171,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,168,0,4
+1619379812803,153,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,150,0,4
+1619379812957,197,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,194,0,3
+1619379813154,163,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,161,0,5
+1619379813317,151,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,150,0,4
+1619379813468,159,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,158,0,4
+1619379813628,156,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,155,0,4
+1619379813785,160,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,158,0,4
+1619379813945,176,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,174,0,12
+1619379814121,189,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,187,0,8
+1619379814310,161,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,160,0,3
+1619379814471,172,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,170,0,5
+1619379814643,162,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,160,0,3
+1619379814805,149,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,148,0,3
+1619379814954,166,df,200,OK,Thread Group 1-1,text,true,,1162789,141,1,1,http://localhost:5000/api/crimes/?secretary=df,164,0,6
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,"161,454545454545",,,,,,,,,,,,,
+,,,,,"159,781818181818",,,,,,,,,,,
