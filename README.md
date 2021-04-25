@@ -26,10 +26,10 @@ Primeiramente o DF:
 
 ![](https://i.imgur.com/LDI4Qgi.png)
 
-Foram realizadas 55 chamadas para este endpoint. 
-Utilizando uma média aritmética, temos:
-Latência:159.78ms
-Tempo de espera:161.45ms
+Foram realizadas 55 chamadas para este endpoint. <br>
+Utilizando uma média aritmética, temos:<br>
+Latência:159.78ms<br>
+Tempo de espera:161.45ms<br>
 
 
 
@@ -38,10 +38,10 @@ Segundamente SP:
 ![](https://i.imgur.com/GGcSJJI.png)
 
 
-Foram realizadas 55 chamadas para este endpoint. 
-Utilizando uma média aritmética, temos:
-Latência:1551.6ms
-Tempo de espera:1532.2ms
+Foram realizadas 55 chamadas para este endpoint.<br>
+Utilizando uma média aritmética, temos:<br>
+Latência:1551.6ms<br>
+Tempo de espera:1532.2ms<br>
 
 
 
