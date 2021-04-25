@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1619383956209,23286,,200,OK,Grupo de Usuários 1-10,text,true,,33712839,139,10,10,http://0.0.0.0:5000/api/coordinates?state=sp,23250,0,0
+1619383955409,29412,,200,OK,Grupo de Usuários 1-6,text,true,,33712839,139,9,9,http://0.0.0.0:5000/api/coordinates?state=sp,29376,0,0
+1619383954415,30506,,200,OK,Grupo de Usuários 1-1,text,true,,33712839,139,8,8,http://0.0.0.0:5000/api/coordinates?state=sp,30470,0,1
+1619383955009,31086,,200,OK,Grupo de Usuários 1-4,text,true,,33712839,139,7,7,http://0.0.0.0:5000/api/coordinates?state=sp,31051,0,0
+1619383955810,30323,,200,OK,Grupo de Usuários 1-8,text,true,,33712839,139,6,6,http://0.0.0.0:5000/api/coordinates?state=sp,30285,0,0
+1619383956010,30702,,200,OK,Grupo de Usuários 1-9,text,true,,33712839,139,5,5,http://0.0.0.0:5000/api/coordinates?state=sp,30664,0,0
+1619383955609,31883,,200,OK,Grupo de Usuários 1-7,text,true,,33712839,139,4,4,http://0.0.0.0:5000/api/coordinates?state=sp,31850,0,1
+1619383955209,32324,,200,OK,Grupo de Usuários 1-5,text,true,,33712839,139,3,3,http://0.0.0.0:5000/api/coordinates?state=sp,32292,0,0
+1619383954810,32940,,200,OK,Grupo de Usuários 1-3,text,true,,33712839,139,2,2,http://0.0.0.0:5000/api/coordinates?state=sp,32907,0,0
+1619383954616,33364,,200,OK,Grupo de Usuários 1-2,text,true,,33712839,139,1,1,http://0.0.0.0:5000/api/coordinates?state=sp,33330,0,0

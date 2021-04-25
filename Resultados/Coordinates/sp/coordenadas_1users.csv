@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1619385037323,3265,,200,OK,Grupo de Usuários 1-1,text,true,,33712839,139,1,1,http://0.0.0.0:5000/api/coordinates?state=sp,3214,0,1

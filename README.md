@@ -7,7 +7,7 @@
 
 
 1.  Métricas de comportamento em relação a tempo:
-* Tempo de Resposta 
+* Tempo de Resposta
 2. Métrica relacionados a experiência do usuário:
 * Latência 
 
@@ -30,7 +30,7 @@ Foram realizadas 55 chamadas para este endpoint. <br>
 Utilizando uma média aritmética, temos:<br>
 Latência:159.78ms<br>
 Tempo de espera:161.45ms<br>
-[Resultados DF](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/df.csv)
+[Resultados DF](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/Crimes/df.csv)
 
 
 
@@ -43,7 +43,7 @@ Foram realizadas 55 chamadas para este endpoint.<br>
 Utilizando uma média aritmética, temos:<br>
 Latência:1551.6ms<br>
 Tempo de espera:1532.2ms<br>
-[Resultados SP](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/sp.csv)
+[Resultados SP](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/Crimes/sp.csv)
 
 
 
