@@ -67,7 +67,7 @@ Requisição de coordenadas SP:
 
 
 Foram realizados 5 testes para este endpoint.<br>
-[Resultados SP](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/Coordinates/sp)
+[Resultados coordenadas-SP](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/Coordinates/sp)
 
 
 ## Testes
@@ -100,11 +100,11 @@ Foram realizados 5 testes para este endpoint.<br>
 ### Resultados
 Caso de teste | Tempo de resposta(ms) | Vazão(req em 5 min) | Latencia(ms)
 ------------- | ----------------- | ----- | --------
-1 Usuário     |   3264ms      | ----- | 3.214ms
-5 Usuários    |   13.441,4ms  | ----- | 13.402,4ms
-10 Usuários   |   27.474ms    | ----- | 30.547,5ms
-30 Usuários   |   89.027,733ms| ----- | 88.988,0667ms
-50 Usuários   |   292942,2ms  | ----- | 292907,28ms    
+1 Usuário     |   3264ms      | 91,9115 | 3.214ms
+5 Usuários    |   13.441,4ms  | 22,321 | 13.402,4ms
+10 Usuários   |   27.474ms    | 10,991 | 30.547,5ms
+30 Usuários   |   89.027,733ms| 3,3699 | 88.988,0667ms
+50 Usuários   |   292942,2ms  | 1,0241 | 292907,28ms    
 
 
 
