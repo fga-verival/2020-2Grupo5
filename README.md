@@ -40,8 +40,8 @@ Segundamente SP:
 
 Foram realizadas 55 chamadas para este endpoint. 
 Utilizando uma média aritmética, temos:
-Latência:1551.6
-Tempo de espera:1532.2
+Latência:1551.6ms
+Tempo de espera:1532.2ms
 
 
 
