@@ -30,6 +30,7 @@ Foram realizadas 55 chamadas para este endpoint. <br>
 Utilizando uma média aritmética, temos:<br>
 Latência:159.78ms<br>
 Tempo de espera:161.45ms<br>
+[Resultados DF](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/df.csv)
 
 
 
@@ -42,7 +43,7 @@ Foram realizadas 55 chamadas para este endpoint.<br>
 Utilizando uma média aritmética, temos:<br>
 Latência:1551.6ms<br>
 Tempo de espera:1532.2ms<br>
-
+[Resultados DF](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/sp.csv)
 
 
 
