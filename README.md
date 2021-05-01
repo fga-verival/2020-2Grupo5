@@ -53,8 +53,8 @@ O endponint testado foi ```api/coordenates?state=sp```. O serviço possui endpoi
 Os testes foram feitos com a plataforma de testes de requisições HTTP [Apache JMeter](https://jmeter.apache.org/).
 
 O serviço foi executado utilizando [containers](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/blob/develop/docker-compose.yml) Docker e em uma máquina com as seguites capacidades de hardware:
-* **Memória RAM:** 
-* **Processador:** 
+* **Memória RAM:** 16 GB
+* **Processador:** Intel  i7-8750H
 
 ### Resultados
 
