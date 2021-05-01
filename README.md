@@ -1,9 +1,9 @@
 # Trabalho Final - Grupo 05
 As seções seguintes apresentam as avaliações e testes feitos de acordo com o escopo definido no [trabalho teórico](https://github.com/fga-verival/2020-2Grupo5/blob/3d5bf96a7909529d0d95449cc3acbfaa33d7764e/trabalho-final.pdf).
 
-## Avaliação do desempenho para fazer requisição no serviço de dados das Secretarias de Segurança Pública
+## Avaliação do desempenho para obter as estatíticas de crimes
 
-De acordo com o que foi relatado no [trabalho teórico](https://github.com/fga-verival/2020-2Grupo5/blob/3d5bf96a7909529d0d95449cc3acbfaa33d7764e/trabalho-final.pdf), o serviço de dados das Secretarias de Segurança foi testado e avaliado de acordo com os seguintes:
+De acordo com o que foi relatado no [trabalho teórico](https://github.com/fga-verival/2020-2Grupo5/blob/3d5bf96a7909529d0d95449cc3acbfaa33d7764e/trabalho-final.pdf), o serviço de dados das Secretarias de Segurança foi testado e avaliado usando as seguintes métricas:
 
 1.  Métricas de comportamento em relação a tempo:
 * Tempo de Resposta
@@ -14,6 +14,7 @@ Os endpoints testados foram `api/crimes?secretary=df` e `api/crimes?secretary=sp
 
 ### Ambiente de teste
 Os testes foram feitos com a plataforma de testes de requisições HTTP [Apache JMeter](https://jmeter.apache.org/).
+
 O serviço foi executado utilizando [containers](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/blob/develop/docker-compose.yml) Docker e em uma máquina com as seguites capacidades de hardware:
 * **Memória RAM:** 
 * **Processador:** 
@@ -22,23 +23,21 @@ O serviço foi executado utilizando [containers](https://github.com/fga-eps-mds/
 Primeiro, para os crimes do DF:
 ![](https://i.imgur.com/LDI4Qgi.png)
 
-Foram realizadas 55 chamadas para este endpoint. <br>
-Utilizando uma média aritmética, temos:<br>
+Foram realizadas 55 chamadas para este endpoint. Utilizando uma média aritmética, temos:<br>
 **Latência:** 159.78ms<br>
 **Tempo de resposta**: 161.45ms<br>
 
-As métricas de cada requisição podem ser vistas [aqui](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/Crimes/df.csv)
+As métricas de cada requisição podem ser vistas [aqui](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/Crimes/df.csv).
 
 E para os crimes de SP:
 
 ![](https://i.imgur.com/GGcSJJI.png)
 
-Foram realizadas 55 chamadas para este endpoint.<br>
-Utilizando uma média aritmética, temos:<br>
+Foram realizadas 55 chamadas para este endpoint. Utilizando uma média aritmética, temos:<br>
 **Latência:** 1551.6ms<br>
 **Tempo de resposta:** 1532.2ms<br>
 
-As métricas de cada requisição podem ser vistas [aqui](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/Crimes/sp.csv)
+As métricas de cada requisição podem ser vistas [aqui](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/Crimes/sp.csv).
 
 ## Avaliação do desempenho para obter as coordenadas
 
@@ -48,10 +47,11 @@ As métricas de cada requisição podem ser vistas [aqui](https://github.com/fga
 2. Métrica relacionados a experiência do usuário:
     * Latência 
 
-O endponint testado foi ```api/coordenates?state=sp```. O serviço possui endpoint de coordenadas apenas para o estado de SP, por isso só esse endpoint foi testado.
+O endponint testado foi ```api/coordenates?state=sp```. O serviço possui endpoint de coordenadas apenas para o estado de SP, por isso só este foi testado.
 
 ### Ambiente de teste
 Os testes foram feitos com a plataforma de testes de requisições HTTP [Apache JMeter](https://jmeter.apache.org/).
+
 O serviço foi executado utilizando [containers](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/blob/develop/docker-compose.yml) Docker e em uma máquina com as seguites capacidades de hardware:
 * **Memória RAM:** 
 * **Processador:** 
@@ -95,7 +95,9 @@ Caso de teste | Tempo de resposta(ms) | Vazão(req em 5 min) | Latencia(ms)
 30 Usuários   |   89.027,733ms| 3,3699 | 88.988,0667ms
 50 Usuários   |   292942,2ms  | 1,0241 | 292907,28ms    
 
-Os resultados podem ser vistos indidualmente [aqui](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/Coordinates/sp)
+Os resultados podem ser vistos indidualmente [aqui](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/Coordinates/sp).
+
+## Análise dos resultados
 
 
 
