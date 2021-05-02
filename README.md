@@ -16,8 +16,8 @@ Os endpoints testados foram `api/crimes?secretary=df` e `api/crimes?secretary=sp
 Os testes foram feitos com a plataforma de testes de requisições HTTP [Apache JMeter](https://jmeter.apache.org/).
 
 O serviço foi executado utilizando [containers](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/blob/develop/docker-compose.yml) Docker e em uma máquina com as seguites capacidades de hardware:
-* **Memória RAM:** 
-* **Processador:** 
+* **Memória RAM:** 16GB
+* **Processador:** Intel i5 - sétima geração
 
 ### Resultados
 Primeiro, para os crimes do DF:
