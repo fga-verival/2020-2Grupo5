@@ -16,8 +16,8 @@ Os endpoints testados foram `api/crimes?secretary=df` e `api/crimes?secretary=sp
 Os testes foram feitos com a plataforma de testes de requisições HTTP [Apache JMeter](https://jmeter.apache.org/).
 
 O serviço foi executado utilizando [containers](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/blob/develop/docker-compose.yml) Docker e em uma máquina com as seguites capacidades de hardware:
-* **Memória RAM:** 
-* **Processador:** 
+* **Memória RAM:** 16 GB
+* **Processador:** Intel  i7-8750H (6 núcleos, 12 threads)
 
 ### Resultados
 Primeiro, para os crimes do DF:
@@ -54,7 +54,7 @@ Os testes foram feitos com a plataforma de testes de requisições HTTP [Apache 
 
 O serviço foi executado utilizando [containers](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/blob/develop/docker-compose.yml) Docker e em uma máquina com as seguites capacidades de hardware:
 * **Memória RAM:** 16 GB
-* **Processador:** Intel  i7-8750H
+* **Processador:** Intel  i7-8750H (6 núcleos, 12 threads)
 
 ### Resultados
 
@@ -99,9 +99,5 @@ Os resultados podem ser vistos indidualmente [aqui](https://github.com/fga-veriv
 
 ## Análise dos resultados
 
-
-
-
-
-
-
+Os resultados obtidos no DF foram bem satisfatórios enquanto que na performance obtida em SP, o usuário necessitária esperar mais de 3 minutos caso estivesse usando o sistema simultaneamente com 50 outros usuários para conseguir a resposta de uma requisição, o que é bem incômodo. 
+Neste caso um defeito de performance seria a latência muito alta pois afeta diretamente o usuário. Para resolver este problema seria pode ser necessário desde otimizar o código ou até evoluir o hardware.
