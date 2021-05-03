@@ -100,4 +100,4 @@ Os resultados podem ser vistos indidualmente [aqui](https://github.com/fga-veriv
 ## Análise dos resultados
 
 Os resultados obtidos no DF foram bem satisfatórios enquanto que na performance obtida em SP, o usuário necessitária esperar mais de 3 minutos caso estivesse usando o sistema simultaneamente com 50 outros usuários para conseguir a resposta de uma requisição, o que é bem incômodo. 
-Neste caso um defeito de performance seria a latência muito alta pois afeta diretamente o usuário. Para resolver este problema seria pode ser necessário desde otimizar o código ou até evoluir o hardware.
+Neste caso um defeito de performance seria a latência muito alta pois afeta diretamente o usuário. Para resolver este problema pode ser necessário desde otimizar o código ou até evoluir o hardware.
