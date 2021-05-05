@@ -89,13 +89,37 @@ Foram realizados 5 testes para este endpoint:
 
 Caso de teste | Tempo de resposta(ms) | Vazão(req em 5 min) | Latencia(ms)
 ------------- | ----------------- | ----- | --------
-1 Usuário     |   3264ms      | 91,9115 | 3.214ms
-5 Usuários    |   13.441,4ms  | 22,321 | 13.402,4ms
-10 Usuários   |   27.474ms    | 10,991 | 30.547,5ms
-30 Usuários   |   89.027,733ms| 3,3699 | 88.988,0667ms
-50 Usuários   |   292942,2ms  | 1,0241 | 292907,28ms    
+1 Usuário     |   3264ms       | 91,9115 | 3.214ms
+5 Usuários    |   13.441,4ms   | 22,321  | 13.402,4ms
+10 Usuários   |   27.474ms     | 10,991  | 30.547,5ms
+30 Usuários   |   89.027,733ms | 3,3699  | 88.988,0667ms
+50 Usuários   |   292.942,2ms  | 1,0241  | 292.907,28ms    
 
 Os resultados podem ser vistos indidualmente [aqui](https://github.com/fga-verival/2020-2Grupo5/blob/trabfinal/Resultados/Coordinates/sp).
+
+## Avaliação do desempenho para renderizar o mapa
+
+Considerando que a parte de renderização ocorre localmente e não está sujeita aos mesmos teste de desempenhdo dos módulos anteriores devemos encontrar outra maneira de calcular seu tempo de resposta. Levando em consideração que o mapa depende das últimas duas etapas para funcionar podemos utilizar esse dados para calcular o tempo bruto para renderização usando a seguinte fórmula:
+
+`Tempo total = Tempo requisição de crimes + Tempo requisição das coordenadas + Tempo para renderizar o mapa`
+
+Após alguns testes simples foi definido que o tempo base para todo o processo usando São Paulo como cidade é de proximadamente 6000ms, Substituindo os valores na fórmula usando os testes anteriores obtemos:
+
+`6000 ms = 1532.2ms + 3264ms + Tempo para renderizar o mapa`
+
+Logo:
+
+`Tempo para renderizar o mapa = 1203.8ms`
+
+Por se tratar de um passo realizado localmente ele não escala com o aumento do número de usuários, logo, esse valor pode ser definido como constante durante todo o processo e podemos reescrever a última tabela da seguinte forma:
+
+Caso de teste | Tempo de resposta(ms) | Tempo de renderização(ms)
+------------- | ----------------- | ----- 
+1 Usuário     |   3264ms       | 6000ms
+5 Usuários    |   13.441,4ms   | 16.177,4ms
+10 Usuários   |   27.474ms     | 30.210ms
+30 Usuários   |   89.027,733ms | 91.763,733ms 
+50 Usuários   |   292.942,2ms  | 295.678,2,s
 
 ## Análise dos resultados
 
